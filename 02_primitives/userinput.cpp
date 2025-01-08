@@ -9,7 +9,7 @@ int main ()
     int teaQuantity;
 
     cout<< "What would you like to order in Tea?";
-    getline(cin, userTea);
+    getline(cin, userTea);//getline command is used for taking inputs of STRING
 
     //Ask for Quantity
     cout <<"How many cups of "<<userTea<<" would you like to have?";
